@@ -46,4 +46,9 @@ const balwan = add([sprite("balwan"), pos(300,180),
 onKeyPress('space', ()=>{ 
     balwan.jump()
     play("muzyka")
-})           
+}) 
+
+onTouchStart((id, pos)=>{ 
+    balwan.jump()
+    play("muzyka")
+
